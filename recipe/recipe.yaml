@@ -1,6 +1,6 @@
 context:
   name: xarray-prism
-  version: "2602.1.0"
+  version: "2603.0.0"
 
 package:
   name: ${{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/xarray_prism-${{ version }}.tar.gz
-  sha256: ef984c072041571e91c58e8746764adc2d4f221b98ad5aa3d174c0eea997e49b
+  sha256: ad90015ecad22729c182d1d8068d6632d876c549df78faba1e2daf39f33e3524
 
 build:
   number: 0
