@@ -11,7 +11,7 @@ source:
   sha256: 7f7e9083ea538ba7a6759f074f53ee3bcd3da0337c5b6ee2364040923f85616b
 
 build:
-  number: 0
+  number: 1
   script: ${{ PYTHON }} -m pip install . -v --no-deps --no-build-isolation
   noarch: python
 
@@ -32,9 +32,9 @@ requirements:
     - rioxarray
     - rasterio
     - netcdf4
-    - s3fs
-    - gcsfs
-    - adlfs
+    - s3fs >=2024.1
+    - gcsfs >=2024.1
+    - adlfs >=2024.1
 
 tests:
   - python:
